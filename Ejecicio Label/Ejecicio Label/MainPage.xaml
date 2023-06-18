@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejecicio_Label.MainPage">
+
+    <!--#Aprendemos a usar los Label-->
+    <StackLayout Margin="20, 35, 20, 20">
+        <Label FontSize="Medium" HorizontalOptions="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <Span TextDecorations="Strikethrough" FontAttributes="Bold" TextColor="Green">Programacion orientada a objetos</Span>
+                    <Span FontAttributes="Italic" TextColor="Blue">es un paradigma de la programacion</Span>
+                    <Span TextColor="Gray" TextDecorations="Strikethrough"> que nos ayuda a obtener mejores resultados</Span>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        
+
+    </StackLayout>
+
+</ContentPage>
